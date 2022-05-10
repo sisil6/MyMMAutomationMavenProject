@@ -1,0 +1,24 @@
+<suite name="Suite1" parallel="classes" thread-count="2" >
+    <parameter name = "single" value = "Jane"/>
+    <parameter name = "married" value = "Jack"/>
+    <parameter name= "inRelationship" value="Mark"/>
+    <parameter name = "unknown" value = "Sam"/>
+    <parameter name = "a" value = "4"/>
+    <parameter name = "b" value = "6"/>
+    <test name="RegressionSuite">
+        <classes>
+<!--            <class name="BasicTests.AnnotationsTests" />-->
+<!--            <class name="BasicTests.GroupTests" />-->
+<!--            <class name="BasicTests.PriorityTests" />-->
+<!--            <class name="BasicTests.DependedsOnTests" />-->
+<!--            <class name="BasicTests.ExceptionsTests" />-->
+<!--            <class name="BasicTests.DataProvidersTests" />-->
+<!--            <class name="BasicTests.MultipleParamProviderTests" />-->
+<!--            <class name="BasicTests.ParametersTests" />-->
+<!--            <class name="BasicTests.InheritanceTests" />-->
+<!--            <class name="BasicTests.ParallelTests" />-->
+<!--            <class name="BasicTests.HardAssertionsTests" />-->
+            <class name="BasicTests.SoftAssertTests" />
+        </classes>
+    </test>
+</suite>

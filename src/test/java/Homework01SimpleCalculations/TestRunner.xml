@@ -1,0 +1,12 @@
+<suite name="Suite1" parallel="classes" thread-count="2" >
+    <parameter name = "a" value = "10"/>
+    <parameter name = "b" value = "5"/>
+    <test name="RegressionSuite">
+        <classes>
+    <class name="Homework01SimpleCalculations.SumTests" />
+        <class name="Homework01SimpleCalculations.ExtractTests" />
+            <class name="Homework01SimpleCalculations.DivideAndMultiplyTests" />
+            <class name="Homework01SimpleCalculations.ModulTests" />
+        </classes>
+    </test>
+</suite>
